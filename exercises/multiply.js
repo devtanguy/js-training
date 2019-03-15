@@ -10,6 +10,25 @@
 
 // Your code :
 
+function multiply(number1, number2) {
+    let valeur1 = Math.abs(number1)
+    let valeur2 = Math.abs(number2)
+
+    let result = 0; 
+    for(let i = 0; i < valeur2; i++) { 
+        result += valeur1;}
+    
+        
+    if (number1>0 && number2< 0){
+      return -result;
+    }else if (number1 < 0 && number2 > 0 ){
+      return -result;
+    }else{
+      return result;
+    }
+  }
+  
+
 //* Begin of tests
 const assert = require('assert')
 
