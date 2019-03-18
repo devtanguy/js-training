@@ -9,6 +9,11 @@
 
 // Your code :
 
+
+function getLength (Array =['param1', 'param2','param3']){
+    return Array.length;
+}
+
 //* Begin of tests
 const assert = require('assert')
 

@@ -8,7 +8,11 @@
  */
 
 // Your code :
+function getLast(Array=['param1', 'param2', 'param3']) {
+    return Array.slice(-1)[0];
 
+}
+    
 //* Begin of tests
 const assert = require('assert')
 
